@@ -6,6 +6,7 @@ import { Rotations } from "./components/Rotations";
 import { SongList } from "./components/SongList";
 import { PlayerBar } from "./components/PlayerBar";
 import { ShareButton } from "./components/ShareButton";
+import { VandeMataramButton } from "./components/VandeMataramButton";
 import { Footer } from "./components/Footer";
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
           </main>
           <Footer />
           <ShareButton />
+          <VandeMataramButton />
           <PlayerBar />
         </div>
       </RadioProvider>

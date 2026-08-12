@@ -20,8 +20,8 @@ const strings = {
   share: { en: "Share", hi: "शेयर करें" },
   rights_title: { en: "Rights & credits", hi: "अधिकार व श्रेय" },
   rights_body: {
-    en: "Songs on this page play through embedded YouTube and Spotify players — nothing is hosted on this site. All rights remain with the original labels, composers, lyricists and performers. Credits are compiled from public film soundtrack listings and may be incomplete.",
-    hi: "इस पेज पर गीत यूट्यूब और स्पॉटीफ़ाई के एम्बेडेड प्लेयर के माध्यम से बजते हैं — कुछ भी इस साइट पर होस्ट नहीं है। सभी अधिकार मूल लेबल, संगीतकार, गीतकार और कलाकारों के पास सुरक्षित हैं।",
+    en: "Rotation songs play through embedded YouTube and Spotify players — the catalogue itself is not hosted on this site. The short Vande Mataram clip behind the flag button is hosted directly, as India's National Song and long in the public domain. All rights remain with the original labels, composers, lyricists and performers. Credits are compiled from public film soundtrack listings and may be incomplete.",
+    hi: "रोटेशन के गीत यूट्यूब और स्पॉटीफ़ाई के एम्बेडेड प्लेयर के माध्यम से बजते हैं — पूरा संग्रह इस साइट पर होस्ट नहीं है। फ़्लैग बटन वाला वंदे मातरम् क्लिप सीधे इसी साइट पर होस्ट है, क्योंकि यह भारत का राष्ट्रगीत है और लंबे समय से सार्वजनिक डोमेन में है। सभी अधिकार मूल लेबल, संगीतकार, गीतकार और कलाकारों के पास सुरक्षित हैं।",
   },
   takedown: {
     en: "Rights holder and want something removed or corrected?",

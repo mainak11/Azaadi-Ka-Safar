@@ -19,6 +19,7 @@ interface RadioContextValue {
   selectSong: (song: Song) => void;
   playRequested: boolean;
   togglePlay: () => void;
+  pause: () => void;
   next: () => void;
   prev: () => void;
   listenerCount: number;
@@ -68,6 +69,10 @@ export function RadioProvider({ children }: { children: ReactNode }) {
     setPlayRequested((p) => !p);
   }
 
+  function pause() {
+    setPlayRequested(false);
+  }
+
   function next() {
     if (songs.length === 0) return;
     hasSelectedRef.current = true;
@@ -91,6 +96,7 @@ export function RadioProvider({ children }: { children: ReactNode }) {
     selectSong,
     playRequested,
     togglePlay,
+    pause,
     next,
     prev,
     listenerCount,
